@@ -1,0 +1,30 @@
+spring.application.name=user-service
+server.port=8090
+
+spring.datasource.url=jdbc:mysql://localhost:3306/e-logs?createDatabaseIfNotExist=true
+spring.datasource.username=root
+spring.datasource.password=Veera@308
+spring.jpa.properties.hibernate.dialect =org.hibernate.dialect.MySQL8Dialect
+
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
+
+eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka
+
+
+eureka.client.register-with-eureka=true
+eureka.client.fetch-registry=true
+
+
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+spring.mail.username=manikantasaitholum556@gmail.com
+spring.mail.password=kqnv qdio vadf vuwb
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+
+razorpay.key=rzp_test_xec6IXFuA4vv4d
+razorpay.secret=5OC6kaFXyftxhJBeD30mJ7zn
+
+
+
