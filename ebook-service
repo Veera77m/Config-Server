@@ -1,0 +1,16 @@
+spring.application.name=ebook-service
+server.port=8095
+
+spring.datasource.url=jdbc:mysql://localhost:3306/e-ebook?createDatabaseIfNotExist=true
+spring.datasource.username=root
+spring.datasource.password=Veera@308
+spring.jpa.properties.hibernate.dialect =org.hibernate.dialect.MySQL8Dialect
+
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
+
+eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka
+eureka.client.register-with-eureka=true
+eureka.client.fetch-registry=true
+spring.main.allow-bean-definition-overriding=true
+
